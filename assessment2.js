@@ -25,7 +25,7 @@ assessmentButton.onclick = () => {
     // 診断結果表示エリアの作成
     removeAllChildren(resultDivided);//第一子削除を関数にしておくと一行でかけるから便利。
     const header = document.createElement('h3');//h3タグ
-    header.innerText = '寮長が迎えにきました！';
+    header.innerText = 'あなたの寮長が迎えにきました！';
     resultDivided.appendChild(header);
 
     const paragraph = document.createElement('p');

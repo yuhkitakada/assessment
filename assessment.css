@@ -1,0 +1,23 @@
+
+body{
+    background: linear-gradient(to top, rgba(217, 229, 214, 0.7) 0%, rgba(224, 227, 227, 0.7) 100%),url(https://dl.dropbox.com/s/y1yqxnv9nj15svc/shirakaba2.jpg);  /* 背景画像指定 */
+    background-repeat: no-repeat; 
+    background-position: top center;
+    background-color: rgb(217, 229, 214);
+    color: #022631;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+button{
+    padding: 5px 20px;
+    background-color:#00a7e1;
+    color:white;
+    border-style: none;
+    border-radius: 5px;
+
+}
+input{
+    height: 25px;
+}

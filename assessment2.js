@@ -18,7 +18,7 @@ function removeAllChildren(element){ //HTMLのresult-areaの最初のchildを消
 assessmentButton.onclick = () => {
     const userName = userNameInput.value;
     if (userName.length === 0){　//ガード句1行目
-        //名前入力がないときは処理を終了する　//ガード句2行目
+        //名前入力がないときは、処理を終了する　//ガード句2行目
         return;//ガード句3行目　return;は「戻り値なし」＝処理終了の意味
     }
 

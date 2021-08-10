@@ -5,7 +5,7 @@ const resultDivided = document.getElementById('result-area');
 const tweetDivided = document.getElementById('tweet-area');
 
 /**
- * 指定した要素の子供を全削除する
+ * 指定した要素の子供をね、全削除する
  * @param {HTMLElement} element HTMLの要素 元はresultDividedという言葉だった。JS診断結果表示エリアの一行で「 removeAllChildren(resultDivided)」書きたかったのでまとめた。
  */
 function removeAllChildren(element){ //HTMLのresult-areaの最初のchildを消す作業をまとめたもの）
